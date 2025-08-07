@@ -27,5 +27,5 @@ jobs:
             ${{ runner.os }}-pip-
       - run: pip install -r requirements.txt
       - name: check cache hit/miss
-        if: ${{ steps.cache-step.cache-hit == "true" }}
+        if: ${{ steps.cache-step.cache-hit == 'true' }}
         run: echo !!!CACHE HIT!!!

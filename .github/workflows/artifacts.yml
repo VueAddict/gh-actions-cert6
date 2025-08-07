@@ -30,7 +30,7 @@ jobs:
     steps:
       - uses: actions/download-artifact@v5
         with:
-          name: myArtifact.txt
+          name: myArtifact
       - name: Display structure of downloaded files
         run: ls -R
       - run: cat myArtifact

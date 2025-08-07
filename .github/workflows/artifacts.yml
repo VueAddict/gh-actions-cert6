@@ -33,4 +33,4 @@ jobs:
           name: myArtifact
       - name: Display structure of downloaded files
         run: ls -R
-      - run: cat myArtifact
+      - run: cat myArtifact.txt
